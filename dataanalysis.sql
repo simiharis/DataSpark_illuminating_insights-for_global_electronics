@@ -19,6 +19,11 @@ SELECT City, State, COUNT(*) AS Count FROM customerdata GROUP BY City, State ORD
 
 SELECT Brand, COUNT(*) AS Count FROM productdetail GROUP BY Brand;
 
+SELECT MIN(Unit_Price_USD * Quantity) AS Min_Sales FROM salesdata1;
+SELECT MAX(Unit_Price_USD * Quantity) AS Max_Sales FROM salesdata1;
+
+
+
 
 SELECT Productkey, SUM(Quantity) AS Total_Sold FROM salesdata1 GROUP BY Productkey 
 ORDER BY Total_Sold DESC LIMIT 10;
