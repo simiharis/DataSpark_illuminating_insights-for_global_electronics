@@ -8,11 +8,9 @@ Retail analytics in the electronics industry is crucial for understanding custom
 
 SKILL-TAKEAWAY
 
-Data Cleaning and Preprocessing, EDA,Python, Data Management using SQL, Power Bi
+Data Cleaning, EDA,Python, Data Management using SQL, Power Bi
 TECHNOLOGY USED
-Python 3.9.
-MySQL 8.0
-Power Bi
+
 
 Business Use Cases:
 
